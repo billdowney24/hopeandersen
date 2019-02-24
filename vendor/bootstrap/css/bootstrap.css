@@ -467,11 +467,8 @@ mark,
 }
 
 .img-fluid {
-  height: 150px;
-  width: 150px;
-
-  /* max-width: 100%; */
-  /* height: auto; */
+  max-width: 100%;
+  height: auto;
 }
 
 .img-thumbnail {
@@ -479,7 +476,7 @@ mark,
   background-color: #fff;
   border: 3px solid #dee2e6;
   border-radius: 0.25rem;
-  max-width: 100%;
+  max-width: 500px;
 }
 
 .figure {
@@ -6093,6 +6090,7 @@ a.close.disabled {
 
 .carousel {
   position: relative;
+  overflow: hidden;
 }
 
 .carousel.pointer-event {
