@@ -6100,7 +6100,9 @@ a.close.disabled {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: auto;
+  margin: 0 auto 0 auto;
+  background-image: top;
   overflow: hidden;
 }
 
@@ -6121,6 +6123,7 @@ a.close.disabled {
   transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  background-position: center bottom;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
