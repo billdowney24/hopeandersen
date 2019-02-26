@@ -67,6 +67,30 @@ body {
   outline: 0 !important;
 }
 
+#rightOfMain{
+  width: 270px;
+  float: right;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  /*background-image: url("../images/ones_zeros.png");*/
+}
+
+#rightOfMain ul{
+  margin-bottom: 20px;
+}
+
+#rightOfMain li{
+  display: inline-block;
+  /*padding: 5px;*/
+  margin: 5px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -474,9 +498,11 @@ mark,
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 3px solid #dee2e6;
+  border: 1px solid #dee2e6;
   border-radius: 0.25rem;
-  max-width: 500px;
+  width: 1000px;
+  height: 500px;
+
 }
 
 .figure {
