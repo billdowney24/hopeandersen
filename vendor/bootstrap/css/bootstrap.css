@@ -491,8 +491,13 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  
 }
 
 .img-book {
